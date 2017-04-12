@@ -9,7 +9,7 @@ Just add these lines to your wp-config to disable updates for these plugins:
 /**
  * Disable updates for these plugins
  */
-define( 'DISABLED_PLUGINS', serialize( array(
+define( 'PLUGINS_DISABLED_FOR_UPDATE', serialize( array(
   'jetpack/jetpack.php',
   'woocommerce/woocommerce.php',
 ) ) );

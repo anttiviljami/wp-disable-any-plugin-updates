@@ -39,7 +39,7 @@ class Disable_Any_Plugin_Updates {
   }
 
   public function filter_plugin_updates( $value ) {
-    $disabled_plugins = defined('DISABLED_PLUGINS') ? unserialize( DISABLED_PLUGINS ) : array();
+    $disabled_plugins = defined('PLUGINS_DISABLED_FOR_UPDATE') ? unserialize( PLUGINS_DISABLED_FOR_UPDATE ) : array();
     foreach($disabled_plugins as $plugin) {
       unset( $value->response[$plugin] );
     }
