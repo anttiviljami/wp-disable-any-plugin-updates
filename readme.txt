@@ -1,5 +1,5 @@
 === WP Disable Any Plugin Updates ===
-Contributors: Zuige
+Contributors: Zuige, runomarsista
 Tags: disable, any, plugin, updates, wp-config
 Donate link: https://github.com/anttiviljami
 Requires at least: 4.7.3

@@ -7,6 +7,10 @@
         {
             "name": "Antti Kuosmanen",
             "email": "antti@seravo.fi"
+        },
+        {
+            "name": "Antti Kymén",
+            "email": "runo@seravo.fi"
         }
     ],
     "require": {}
