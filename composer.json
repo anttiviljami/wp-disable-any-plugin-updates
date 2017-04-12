@@ -1,0 +1,13 @@
+{
+    "name": "anttiviljami/wp-disable-any-plugin-updates",
+    "description": "Disables updates for a list of plugins permanently without editing them",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Antti Kuosmanen",
+            "email": "antti@seravo.fi"
+        }
+    ],
+    "require": {}
+}
